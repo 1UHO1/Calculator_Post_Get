@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Getting Started: Serving Web Content</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<br>
+<form method="post" action="/res">
+    <input id="11" name="variable" type="text"> <br>
+    <select name="z" id="z">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+    </select> <br>
+    <input id="22" name="variable2" type="text"> <br>
+    <input type="submit" value="POST">
+    </form>
+<br>
+<form method="get" action="/res">
+    <input id="12" name="variable1" type="text"> <br>
+    <select name="z1" id="z1">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+    </select> <br>
+    <input id="222" name="variable3" type="text"> <br>
+    <input type="submit" value="GET">
+</form>
+</body>
+</html>
